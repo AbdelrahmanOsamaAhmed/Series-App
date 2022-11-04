@@ -1,0 +1,41 @@
+.card{
+    min-height: 14em;
+    width: 19em;
+    margin: 20px;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+#video-img{
+    width: 100%;
+    border-radius: 10px;
+}
+#channel-img{
+    height: 30px;
+    border-radius: 50%;
+}
+.info{
+    margin-top: 20px;
+}
+.title{
+    margin-bottom: 7px;
+}
+.small-txt{
+    font-size: 12px;
+}
+.title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.link{
+    transition: 0.2s ease-in-out;
+    color: rgb(255, 188, 188);
+}
+.link:hover{
+    color: rgb(184, 38, 38);
+}
